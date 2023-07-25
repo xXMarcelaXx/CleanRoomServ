@@ -103,7 +103,7 @@ class ControllerPrueba extends Controller
         return view('reportes.index');
     }
 
-    public function rep1_1()
+    public function rep11()
     {
         $reversos = Reverso::all();
         $registros = Registro::all();
@@ -113,23 +113,23 @@ class ControllerPrueba extends Controller
         view()-> share('reversos',$reversos);
         $pdf = PDF::loadView('reportes.rep1-1');
         $pdf->setPaper('b3','landscape');
-        return $pdf-> download('rep1-1.pdf');
-    }
-
-    public function rep1_1()
-    {
-        $reversos = Reverso::all();
-        $registros = Registro::all();
-        $datoshojas = Datoshoja::all();
-        view()-> share('datoshojas',$datoshojas);
-        view()-> share('registros',$registros);
-        view()-> share('reversos',$reversos);
-        $pdf = PDF::loadView('reportes.rep1-1');
-        $pdf->setPaper('b3','landscape');
-        return $pdf-> download('rep1-1.pdf');
+        return $pdf-> download('rep11.pdf');
     }
 
     public function rep1_2()
+    {
+        $reversos = Reverso::all();
+        $registros = Registro::all();
+        $datoshojas = Datoshoja::all();
+        view()-> share('datoshojas',$datoshojas);
+        view()-> share('registros',$registros);
+        view()-> share('reversos',$reversos);
+        $pdf = PDF::loadView('reportes.rep1-1');
+        $pdf->setPaper('b3','landscape');
+        return $pdf-> download('rep1-1.pdf');
+    }
+
+    public function rep1_3()
     {
         $reversos = Reverso::all();
         $registros = Registro::all();
@@ -142,7 +142,7 @@ class ControllerPrueba extends Controller
         return $pdf-> download('rep1-1.pdf');
     }
 
-    public function rep1_1()
+    public function rep1_4()
     {
         $reversos = Reverso::all();
         $registros = Registro::all();
@@ -155,7 +155,7 @@ class ControllerPrueba extends Controller
         return $pdf-> download('rep1-1.pdf');
     }
 
-    public function rep1_1()
+    public function rep1_5()
     {
         $reversos = Reverso::all();
         $registros = Registro::all();

@@ -183,7 +183,7 @@ Route::middleware(['auth'])->group(function () {
 
    //----------------------------
    Route::get('/reportes',[ControllerPrueba::class,'reportes'])->name('reportes');
-   Route::get('/rep1-1',[ControllerPrueba::class,'rep1-1'])->name('rep1-1');
+   Route::get('/rep11',[ControllerPrueba::class,'rep11'])->name('rep11');
 
 
 

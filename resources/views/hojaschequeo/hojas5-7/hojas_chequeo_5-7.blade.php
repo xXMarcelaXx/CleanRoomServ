@@ -19446,7 +19446,7 @@
 
     hoja de chequeo F7-SETCS-ELE-60-L1-01
     <!-- -------------- F7-SETCS-ELE-60-L1-01-T1  INDEX Y REVERSO  -------------------->
-<div class="table-responsive" align="center">
+<div class="table-responsive" >
         <table class="table table-success table-bordered">
             <thead>
                 @foreach ($datoshojas as $datoshoja)
