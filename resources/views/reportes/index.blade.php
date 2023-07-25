@@ -38,7 +38,7 @@
     <div class="container" id="contenedor-reportes">
         <div id="columna">
             <ol>
-               <li><a href="{{route('pdfprintSETCS20')}}">Descargar</a></li>
+               <li><a href="{{route('rep1-1')}}">rep1-1</a></li>
                <li><a href="#">Descargar</a></li>
                <li><a href="#">Descargar</a></li>
                <li><a href="#">Descargar</a></li>
