@@ -183,7 +183,47 @@ Route::middleware(['auth'])->group(function () {
 
    //----------------------------
    Route::get('/reportes',[ControllerPrueba::class,'reportes'])->name('reportes');
-   Route::get('/rep11',[ControllerPrueba::class,'rep11'])->name('rep11');
+   Route::get('/rep1_1',[ControllerPrueba::class,'rep1_1'])->name('rep1_1');
+   Route::get('/rep1_2',[ControllerPrueba::class,'rep1_2'])->name('rep1_2');
+   Route::get('/rep1_3',[ControllerPrueba::class,'rep1_3'])->name('rep1_3');
+   Route::get('/rep1_4',[ControllerPrueba::class,'rep1_4'])->name('rep1_4');
+   Route::get('/rep1_5',[ControllerPrueba::class,'rep1_5'])->name('rep1_5');
+   Route::get('/rep1_6',[ControllerPrueba::class,'rep1_6'])->name('rep1_6');
+   Route::get('/rep1_7',[ControllerPrueba::class,'rep1_7'])->name('rep1_7');
+   Route::get('/rep1_8',[ControllerPrueba::class,'rep1_8'])->name('rep1_8');
+   Route::get('/rep1_9',[ControllerPrueba::class,'rep1_9'])->name('rep1_8');
+   Route::get('/rep1_10',[ControllerPrueba::class,'rep1_10'])->name('rep1_10');
+   Route::get('/rep1_11',[ControllerPrueba::class,'rep1_11'])->name('rep1_11');
+   Route::get('/rep1_12',[ControllerPrueba::class,'rep1_12'])->name('rep1_12');
+   Route::get('/rep1_13',[ControllerPrueba::class,'rep1_13'])->name('rep1_13');
+
+   Route::get('/rep2_1',[ControllerPrueba::class,'rep2_1'])->name('rep2_1');
+   Route::get('/rep2_2',[ControllerPrueba::class,'rep2_2'])->name('rep2_2');
+   Route::get('/rep2_3',[ControllerPrueba::class,'rep2_3'])->name('rep2_3');
+   Route::get('/rep2_4',[ControllerPrueba::class,'rep2_4'])->name('rep2_4');
+   Route::get('/rep2_5',[ControllerPrueba::class,'rep2_5'])->name('rep2_5');
+   Route::get('/rep2_6',[ControllerPrueba::class,'rep2_6'])->name('rep2_6');
+   Route::get('/rep2_7',[ControllerPrueba::class,'rep2_7'])->name('rep2_7');
+   Route::get('/rep2_8',[ControllerPrueba::class,'rep2_8'])->name('rep2_8');
+   Route::get('/rep2_9',[ControllerPrueba::class,'rep2_9'])->name('rep2_8');
+   Route::get('/rep2_10',[ControllerPrueba::class,'rep2_10'])->name('rep2_10');
+   Route::get('/rep2_11',[ControllerPrueba::class,'rep2_11'])->name('rep2_11');
+   Route::get('/rep2_12',[ControllerPrueba::class,'rep2_12'])->name('rep2_12');
+   Route::get('/rep2_13',[ControllerPrueba::class,'rep2_13'])->name('rep2_13');
+
+   Route::get('/rep3_1',[ControllerPrueba::class,'rep3_1'])->name('rep3_1');
+   Route::get('/rep3_2',[ControllerPrueba::class,'rep3_2'])->name('rep3_2');
+   Route::get('/rep3_3',[ControllerPrueba::class,'rep3_3'])->name('rep3_3');
+   Route::get('/rep3_4',[ControllerPrueba::class,'rep3_4'])->name('rep3_4');
+   Route::get('/rep3_5',[ControllerPrueba::class,'rep3_5'])->name('rep3_5');
+   Route::get('/rep3_6',[ControllerPrueba::class,'rep3_6'])->name('rep3_6');
+   Route::get('/rep3_7',[ControllerPrueba::class,'rep3_7'])->name('rep3_7');
+   Route::get('/rep3_8',[ControllerPrueba::class,'rep3_8'])->name('rep3_8');
+   Route::get('/rep3_9',[ControllerPrueba::class,'re32_9'])->name('rep3_8');
+   Route::get('/rep3_10',[ControllerPrueba::class,'rep3_10'])->name('rep3_10');
+   Route::get('/rep3_11',[ControllerPrueba::class,'rep3_11'])->name('rep3_11');
+   Route::get('/rep3_12',[ControllerPrueba::class,'rep3_12'])->name('rep3_12');
+   Route::get('/rep3_13',[ControllerPrueba::class,'rep3_13'])->name('rep3_13');
 
 
 
