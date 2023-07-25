@@ -211,7 +211,13 @@ border-style: solid;
 
 #contenedor-reportes
 {
+  display: flex;
   width: 80%;
   background-color: white;
-  opacity: 0.95;
+  opacity: 1;
+}
+
+#columna {
+  flex: 1;
+  padding: 10px;
 }

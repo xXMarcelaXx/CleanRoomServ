@@ -522,7 +522,7 @@
                                 $registro->tipo == 'cumple')
                                 <tr>
 
-                                    <td class="fijar">{{ $registro->criterio }}</td>
+                                    <td>{{ $registro->criterio }}</td>
                                     <td>
                                         @if ($registro['d1'] == 'Cumple')
                                             <p style="color: green">{{ $registro['d1'] }}</p>
@@ -4241,7 +4241,6 @@
                                 $registro->partetabla == 'AL INICIO DE TURNO' &&
                                 $registro->tipo == 'cumple')
                                 <tr>
-
                                     <td class="fijar">{{ $registro->criterio }}</td>
                                     <td>
                                         @if ($registro['d1'] == 'Cumple')

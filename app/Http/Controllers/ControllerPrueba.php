@@ -103,8 +103,70 @@ class ControllerPrueba extends Controller
         return view('reportes.index');
     }
 
+    public function rep1_1()
+    {
+        $reversos = Reverso::all();
+        $registros = Registro::all();
+        $datoshojas = Datoshoja::all();
+        view()-> share('datoshojas',$datoshojas);
+        view()-> share('registros',$registros);
+        view()-> share('reversos',$reversos);
+        $pdf = PDF::loadView('reportes.rep1-1');
+        $pdf->setPaper('b3','landscape');
+        return $pdf-> download('rep1-1.pdf');
+    }
 
+    public function rep1_1()
+    {
+        $reversos = Reverso::all();
+        $registros = Registro::all();
+        $datoshojas = Datoshoja::all();
+        view()-> share('datoshojas',$datoshojas);
+        view()-> share('registros',$registros);
+        view()-> share('reversos',$reversos);
+        $pdf = PDF::loadView('reportes.rep1-1');
+        $pdf->setPaper('b3','landscape');
+        return $pdf-> download('rep1-1.pdf');
+    }
 
+    public function rep1_2()
+    {
+        $reversos = Reverso::all();
+        $registros = Registro::all();
+        $datoshojas = Datoshoja::all();
+        view()-> share('datoshojas',$datoshojas);
+        view()-> share('registros',$registros);
+        view()-> share('reversos',$reversos);
+        $pdf = PDF::loadView('reportes.rep1-2');
+        $pdf->setPaper('b3','landscape');
+        return $pdf-> download('rep1-1.pdf');
+    }
+
+    public function rep1_1()
+    {
+        $reversos = Reverso::all();
+        $registros = Registro::all();
+        $datoshojas = Datoshoja::all();
+        view()-> share('datoshojas',$datoshojas);
+        view()-> share('registros',$registros);
+        view()-> share('reversos',$reversos);
+        $pdf = PDF::loadView('reportes.rep1-1');
+        $pdf->setPaper('b3','landscape');
+        return $pdf-> download('rep1-1.pdf');
+    }
+
+    public function rep1_1()
+    {
+        $reversos = Reverso::all();
+        $registros = Registro::all();
+        $datoshojas = Datoshoja::all();
+        view()-> share('datoshojas',$datoshojas);
+        view()-> share('registros',$registros);
+        view()-> share('reversos',$reversos);
+        $pdf = PDF::loadView('reportes.rep1-1');
+        $pdf->setPaper('b3','landscape');
+        return $pdf-> download('rep1-1.pdf');
+    }
     
 
     
