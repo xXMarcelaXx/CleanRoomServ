@@ -58,8 +58,8 @@
     </ul>        
     </div>
     <br><br>
-    <h1 style="text-align: center; color:white; background-color:rgb(29, 29, 29)">Reportes Turno 2</h1>
-    <div class="">
+    <h1 style="text-align: center; color:white; background-color:rgb(29, 29, 29)">Reportes Turno 3</h1>
+    <div class="container" id="contenedor-reportes">
         <ul>
             <li><a href="#">Descargar</a></li>
             <li><a href="#">Descargar</a></li>
