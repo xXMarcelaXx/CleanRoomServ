@@ -2395,7 +2395,7 @@
                                 $registro->partetabla == '#3' &&
                                 $registro->tipo == 'cumple')
                                 <tr>
-<td class="fijar">{{ $registro->criterio }}</td>
+                   <td class="fijar">{{ $registro->criterio }}</td>
                                     <td>
                                         @if ($registro['d1'] == 'Cumple')
                                             <p style="color: green">{{ $registro['d1'] }}</p>
@@ -2945,6 +2945,7 @@
                     </tbody>
             </table>
         </div>
+    </div>
 </body>
 
 </html>
