@@ -37,32 +37,27 @@
     <div class="container" id="contenedor-reportes">
         <div id="columna">
             <ol>
-               <li><a href="{{route('rep11')}}">rep1-1</a></li>
-               <li><a href="#">Descargar</a></li>
-               <li><a href="#">Descargar</a></li>
-               <li><a href="#">Descargar</a></li>
-               <li><a href="#">Descargar</a></li>
-               <li><a href="#">Descargar</a></li>
+               <li><a href="{{route('rep1_1')}}">rep1-1</a></li>
+               <li><a href="{{route('rep1_2')}}">rep1-2</a></li>
+               <li><a href="{{route('rep1_3')}}">rep1-3</a></li>
+               <li><a href="{{route('rep1_4')}}">rep1-4</a></li>
+               <li><a href="{{route('rep1_5')}}">rep1-5</a></li>
            </ol>             
         </div>
         <div id="columna">
-            <ol start="7">
-               <li><a href="#">Descargar</a></li>
-               <li><a href="#">Descargar</a></li>
-               <li><a href="#">Descargar</a></li>
-               <li><a href="#">Descargar</a></li>
-               <li><a href="#">Descargar</a></li>
-               <li><a href="#">Descargar</a></li>
+            <ol start="6">
+               <li><a href="{{route('rep1_6')}}">rep1-6</a></li>
+               <li><a href="{{route('rep1_7')}}">rep1-7</a></li>
+               <li><a href="{{route('rep1_8')}}">rep1-8</a></li>
+               <li><a href="{{route('rep1_9')}}">rep1-9</a></li>
+               <li><a href="{{route('rep1_10')}}">rep1-10</a></li>
            </ol>             
         </div>
         <div id="columna">
-            <ol start="13">
-               <li><a href="#">Descargar</a></li>
-               <li><a href="#">Descargar</a></li>
-               <li><a href="#">Descargar</a></li>
-               <li><a href="#">Descargar</a></li>
-               <li><a href="#">Descargar</a></li>
-               <li><a href="#">Descargar</a></li>
+            <ol start="11">
+               <li><a href="{{route('rep1_11')}}">rep1-11</a></li>
+               <li><a href="{{route('rep1_12')}}">rep1-12</a></li>
+               <li><a href="{{route('rep1_13')}}">rep1-13</a></li>
            </ol>             
          </div>
           
