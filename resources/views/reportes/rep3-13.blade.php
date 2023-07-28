@@ -32,56 +32,57 @@
 
 hoja de chequeo F7-SETCS-ELE-CR-L1-01
 <!-- -------------- F7-SETCS-ELE-CR-L1-01-57  INDEX Y REVERSO  -------------------->
+<div style="page-break-after:always;">
 
-<div style="page-break-after:always;"></div>
+</div>
 <!-- --------------  REVERSO  -------------------->
+<div style="page-break-after:always;">
 
-<div style="page-break-after:always;"></div>
+</div>
 
 
---------------------------------------------
 hoja de chequeo F7-SETCS-ELE-CR-L1-01
 <!-- -------------- F7-SETCS-ELE-CR-L1-01-57  INDEX Y REVERSO  -------------------->
+<div style="page-break-after:always;">
 
-<div style="page-break-after:always;"></div>
+</div>
 <!-- --------------  REVERSO  -------------------->
+<div style="page-break-after:always;">
 
-<div style="page-break-after:always;"></div>
+</div>
 
 
---------------------------------------------
 hoja de chequeo F7-SETCS-ELE-CR-L1-01
 <!-- -------------- F7-SETCS-ELE-CR-L1-01-57  INDEX Y REVERSO  -------------------->
+<div style="page-break-after:always;">
 
-<div style="page-break-after:always;"></div>
+</div>
 <!-- --------------  REVERSO  -------------------->
+<div style="page-break-after:always;">
 
-<div style="page-break-after:always;"></div>
+</div>
 
 
---------------------------------------------
 hoja de chequeo F7-SETCS-ELE-CR-L1-01
 <!-- -------------- F7-SETCS-ELE-CR-L1-01-57  INDEX Y REVERSO  -------------------->
+<div style="page-break-after:always;">
 
-<div style="page-break-after:always;"></div>
+</div>
 <!-- --------------  REVERSO  -------------------->
+<div style="page-break-after:always;">
 
-<div style="page-break-after:always;"></div>
+</div>
 
 
---------------------------------------------
 hoja de chequeo F7-SETCS-ELE-CR-L1-01
 <!-- -------------- F7-SETCS-ELE-CR-L1-01-57  INDEX Y REVERSO  -------------------->
+<div style="page-break-after:always;">
 
-<div style="page-break-after:always;"></div>
+</div>
 <!-- --------------  REVERSO  -------------------->
+<div style="page-break-after:always;">
 
-<div style="page-break-after:always;"></div>
---------------------------------------------
-
-
-
-
+</div>
 
 
 </body>
