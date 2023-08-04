@@ -185,7 +185,7 @@
                                 $registro->documentoid == 'F7-SETCS-ELE-60-L1-06-1-1-2' &&
                                 $registro->partetabla == 'AJUSTES')
                                 <tr>
-<td class="fijar">{{ $registro->criterio }}</td>
+                      <td class="fijar">{{ $registro->criterio }}</td>
                                     <td>
                                         @if ($registro['d1'] == 'Cumple')
                                             <p style="color: green">{{ $registro['d1'] }}</p>
@@ -416,7 +416,7 @@
                                 $registro->documentoid == 'F7-SETCS-ELE-60-L1-06-1-1-2' &&
                                 $registro->partetabla == '#1')
                                 <tr>
-<td class="fijar">{{ $registro->criterio }}</td>
+                                <td class="fijar">{{ $registro->criterio }}</td>
                                     <td>
                                         @if ($registro['d1'] == 'Cumple')
                                             <p style="color: green">{{ $registro['d1'] }}</p>
@@ -647,7 +647,7 @@
                                 $registro->documentoid == 'F7-SETCS-ELE-60-L1-06-1-1-2' &&
                                 $registro->partetabla == '#2')
                                 <tr>
-<td class="fijar">{{ $registro->criterio }}</td>
+                             <td class="fijar">{{ $registro->criterio }}</td>
                                     <td>
                                         @if ($registro['d1'] == 'Cumple')
                                             <p style="color: green">{{ $registro['d1'] }}</p>
@@ -878,7 +878,7 @@
                                 $registro->documentoid == 'F7-SETCS-ELE-60-L1-06-1-1-2' &&
                                 $registro->partetabla == '#3')
                                 <tr>
-<td class="fijar">{{ $registro->criterio }}</td>
+                                <td class="fijar">{{ $registro->criterio }}</td>
                                     <td>
                                         @if ($registro['d1'] == 'Cumple')
                                             <p style="color: green">{{ $registro['d1'] }}</p>
@@ -1102,6 +1102,7 @@
                     </tbody>
             </table>
         </div>
+    </div>
 </body>
 
 </html>

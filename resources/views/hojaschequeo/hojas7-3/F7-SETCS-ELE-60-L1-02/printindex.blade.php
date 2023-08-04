@@ -250,7 +250,7 @@
                                     $registro->documentoid == 'F7-SETCS-ELE-60-L1-08-2' &&
                                     $registro->partetabla == '#2')
                                     <tr>
-    <td class="fijar">{{ $registro->criterio }}</td>
+                                   <td class="fijar">{{ $registro->criterio }}</td>
                                         <td>
                                             @if ($registro['d1'] == 'Cumple')
                                                 <p style="color: green">{{ $registro['d1'] }}</p>
@@ -474,6 +474,7 @@
                         </tbody>
             </table>
         </div>
+    </div>
 </body>
 
 </html>

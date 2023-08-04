@@ -409,7 +409,7 @@
                                 $registro->partetabla == 'AL INICIO DE TURNO' &&
                                 $registro->tipo == 'texto')
                                 <tr>
-<td class="fijar">{{ $registro->criterio }}</td>
+                                <td class="fijar">{{ $registro->criterio }}</td>
                                     <td>                                        
                                         <p>{{ $registro['d1'] }}</p>                                                                        
                                     </td>
@@ -509,5 +509,6 @@
                     </tbody>
             </table>
         </div>
+    </div>
 </body>
 </html>
