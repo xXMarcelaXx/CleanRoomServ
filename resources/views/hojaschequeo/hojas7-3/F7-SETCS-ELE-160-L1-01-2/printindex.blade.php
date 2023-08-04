@@ -405,7 +405,7 @@
                                 $registro->partetabla == 'ARRIBA' &&
                                 $registro->tipo == 'texto')
                                 <tr>
-<td class="fijar">{{ $registro->criterio }}</td>
+          <td class="fijar">{{ $registro->criterio }}</td>
                                     <td>
                                         <p>{{ $registro['d1'] }}</p>
                                     </td>
@@ -830,7 +830,7 @@
                                 $registro->partetabla == 'ABAJO' &&
                                 $registro->tipo == 'texto')
                                 <tr>
-<td class="fijar">{{ $registro->criterio }}</td>
+                    <td class="fijar">{{ $registro->criterio }}</td>
                                     <td>
                                         <p>{{ $registro['d1'] }}</p>
                                     </td>
@@ -930,5 +930,6 @@
                     </tbody>
             </table>
         </div>
+    </div>
 </body>
 </html>
