@@ -404,7 +404,7 @@
                                 $registro->partetabla == 'ARRIBA' &&
                                 $registro->tipo == 'texto')
                                 <tr>
-<td class="fijar">{{ $registro->criterio }}</td>
+               <td class="fijar">{{ $registro->criterio }}</td>
                                     <td>                                        
                                         <p>{{ $registro['d1'] }}</p>                                                                        
                                     </td>
@@ -503,6 +503,7 @@
                         @endforeach
                     </tbody>
             </table>
+        </div>
         </div>
 </body>
 </html>
