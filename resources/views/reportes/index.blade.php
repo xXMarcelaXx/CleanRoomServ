@@ -65,29 +65,61 @@
     <br><br>
     <h1 style="text-align: center; color:white; background-color:rgb(29, 29, 29)">Reportes Turno 2</h1>
     <div class="container" id="contenedor-reportes">
-    <div>
-    <ul>
-        <li><a href="#">Descargar</a></li>
-        <li><a href="#">Descargar</a></li>
-        <li><a href="#">Descargar</a></li>
-        <li><a href="#">Descargar</a></li>
-        <li><a href="#">Descargar</a></li>
-        <li><a href="#">Descargar</a></li>
-    </ul>          
-    </div>
+        <div id="columna">
+            <ol>
+               <li><a href="{{route('rep2_1')}}">rep2-1</a></li>
+               <li><a href="{{route('rep2_2')}}">rep2-2</a></li>
+               <li><a href="{{route('rep2_3')}}">rep2-3</a></li>
+               <li><a href="{{route('rep2_4')}}">rep2-4</a></li>
+               <li><a href="{{route('rep2_5')}}">rep2-5</a></li>
+           </ol>             
+        </div>
+        <div id="columna">
+            <ol start="6">
+               <li><a href="{{route('rep2_6')}}">rep2-6</a></li>
+               <li><a href="{{route('rep2_7')}}">rep2-7</a></li>
+               <li><a href="{{route('rep2_8')}}">rep2-8</a></li>
+               <li><a href="{{route('rep2_9')}}">rep2-9</a></li>
+               <li><a href="{{route('rep2_10')}}">rep2-10</a></li>
+           </ol>             
+        </div>
+        <div id="columna">
+            <ol start="11">
+               <li><a href="{{route('rep2_11')}}">rep2-11</a></li>
+               <li><a href="{{route('rep2_12')}}">rep2-12</a></li>
+               <li><a href="{{route('rep2_13')}}">rep2-13</a></li>
+           </ol>             
+         </div>
       
     </div>
     <br><br>
     <h1 style="text-align: center; color:white; background-color:rgb(29, 29, 29)">Reportes Turno 3</h1>
     <div class="container" id="contenedor-reportes">
-        <ul>
-            <li><a href="#">Descargar</a></li>
-            <li><a href="#">Descargar</a></li>
-            <li><a href="#">Descargar</a></li>
-            <li><a href="#">Descargar</a></li>
-            <li><a href="#">Descargar</a></li>
-            <li><a href="#">Descargar</a></li>
-        </ul> 
+        <div id="columna">
+            <ol>
+               <li><a href="{{route('rep3_1')}}">rep3-1</a></li>
+               <li><a href="{{route('rep3_2')}}">rep3-2</a></li>
+               <li><a href="{{route('rep3_3')}}">rep3-3</a></li>
+               <li><a href="{{route('rep3_4')}}">rep3-4</a></li>
+               <li><a href="{{route('rep3_5')}}">rep3-5</a></li>
+           </ol>             
+        </div>
+        <div id="columna">
+            <ol start="6">
+               <li><a href="{{route('rep3_6')}}">rep3-6</a></li>
+               <li><a href="{{route('rep3_7')}}">rep3-7</a></li>
+               <li><a href="{{route('rep3_8')}}">rep3-8</a></li>
+               <li><a href="{{route('rep3_9')}}">rep3-9</a></li>
+               <li><a href="{{route('rep3_10')}}">rep3-10</a></li>
+           </ol>             
+        </div>
+        <div id="columna">
+            <ol start="11">
+               <li><a href="{{route('rep3_11')}}">rep3-11</a></li>
+               <li><a href="{{route('rep3_12')}}">rep3-12</a></li>
+               <li><a href="{{route('rep3_13')}}">rep3-13</a></li>
+           </ol>             
+         </div>
     </div>
 
 </div>
