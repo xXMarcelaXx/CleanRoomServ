@@ -409,7 +409,7 @@
                                 $registro->partetabla == 'AL INICIO DE TURNO' &&
                                 $registro->tipo == 'texto')
                                 <tr>
-<td class="fijar">{{ $registro->criterio }}</td>
+                          <td class="fijar">{{ $registro->criterio }}</td>
                                     <td>                                        
                                         <p>{{ $registro['d1'] }}</p>                                                                        
                                     </td>
@@ -517,7 +517,7 @@
                                 $registro->partetabla == 'DIARIO' &&
                                 $registro->tipo == 'cumple')
                                 <tr>
-<td class="fijar">{{ $registro->criterio }}</td>
+                           <td class="fijar">{{ $registro->criterio }}</td>
                                     <td>
                                         @if ($registro['d1'] == 'Cumple')
                                             <p style="color: green">{{ $registro['d1'] }}</p>
@@ -1081,7 +1081,7 @@
                                 $registro->partetabla == 'NOTA' &&
                                 $registro->tipo == 'cumple')
                                 <tr>
-<td class="fijar">{{ $registro->criterio }}</td>
+                        <td class="fijar">{{ $registro->criterio }}</td>
                                     <td>
                                         @if ($registro['d1'] == 'Cumple')
                                             <p style="color: green">{{ $registro['d1'] }}</p>
@@ -1535,7 +1535,7 @@
                                 $registro->partetabla == 'NOTA' &&
                                 $registro->tipo == 'texto')
                                 <tr>
-<td class="fijar">{{ $registro->criterio }}</td>
+                          <td class="fijar">{{ $registro->criterio }}</td>
                                     <td>                                        
                                         <p>{{ $registro['d1'] }}</p>                                                                        
                                     </td>
@@ -1636,6 +1636,7 @@
                     </tbody>
             </table>
         </div>
+    </div>
 </body>
 
 </html>
