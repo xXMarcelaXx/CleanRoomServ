@@ -2022,7 +2022,7 @@ hoja de chequeo F7-SETCS-ELE-40-L1-02-2-5
                     <tbody>
                         <tr>
                             <th colspan="33" class="table-secondary">
-                                <p align="center">A las 6:00 Hrs</p>
+                                <p>A las 6:00 Hrs</p>
                             </th>
                         </tr>
                         @foreach ($registros as $registro)
@@ -2580,7 +2580,7 @@ hoja de chequeo F7-SETCS-ELE-40-L1-02-2-5
                 @endforeach
                 <tr>
                     <th colspan="33" class="table-secondary">
-                        <p align="center">Despues de cambio de modelo</p>
+                        <p>Despues de cambio de modelo</p>
                     </th>
                 </tr>
                 @foreach ($registros as $registro)
@@ -3879,7 +3879,7 @@ hoja de chequeo F7-SETCS-ELE-40-L1-02-2-6
                     <tbody>
                         <tr>
                             <th colspan="33" class="table-secondary">
-                                <p align="center">A las 6:00 Hrs</p>
+                                <p>A las 6:00 Hrs</p>
                             </th>
                         </tr>
                         @foreach ($registros as $registro)
@@ -4437,7 +4437,7 @@ hoja de chequeo F7-SETCS-ELE-40-L1-02-2-6
                 @endforeach
                 <tr>
                     <th colspan="33" class="table-secondary">
-                        <p align="center">Despues de cambio de modelo</p>
+                        <p>Despues de cambio de modelo</p>
                     </th>
                 </tr>
                 @foreach ($registros as $registro)
@@ -4995,7 +4995,7 @@ hoja de chequeo F7-SETCS-ELE-40-L1-02-2-6
                 @endforeach
                 <tr>
                     <th colspan="33" class="table-secondary">
-                        <p align="center">Despues de cambio de modelo</p>
+                        <p>Despues de cambio de modelo</p>
                     </th>
                 </tr>
                 @foreach ($registros as $registro)
@@ -5667,12 +5667,12 @@ hoja de chequeo F7-SETCS-ELE-60-L1-01-1
             @endforeach
         </thead>
     </table>
-     <div class="table-responsive" align="center">
+     <div class="table-responsive">
         <table class="table table-success table-bordered">
             <thead>
                 <tr>
                     <th colspan="33" class="table-secondary">
-                        <p align="center">Formato de Send-Ahead para Serpentín TODOS LOS MODELOS</p>
+                        <p>Formato de Send-Ahead para Serpentín TODOS LOS MODELOS</p>
                     </th>
                 </tr>
             </thead>
@@ -5715,8 +5715,8 @@ hoja de chequeo F7-SETCS-ELE-60-L1-01-1
                         <th colspan="7">{{ $registro['d10'] }}</th>
                     </tr>
                     <tr>
-                        <th colspan="9"><p align="center">Primera Pasada</p></th>
-                        <th colspan="10"><p align="center">Segunda Pasada</p></th>
+                        <th colspan="9"><p>Primera Pasada</p></th>
+                        <th colspan="10"><p>Segunda Pasada</p></th>
                     </tr>
                     <tr>
                         <td colspan="1">Impresora: </td>
@@ -6095,7 +6095,7 @@ hoja de chequeo F7-SETCS-ELE-60-L1-06-1-1-1
                 @endforeach
             </thead>
         </table>
-        <div class="table-responsive" align="center">
+        <div class="table-responsive" >
             <table class="table table-success table-bordered">
                 <thead>
                     <tr>
@@ -6169,7 +6169,7 @@ hoja de chequeo F7-SETCS-ELE-60-L1-06-1-1-1
                     <tbody>
                         <tr>
                             <th colspan="33" class="table-secondary">
-                                <p align="center">Inicio de turno</p>
+                                <p >Inicio de turno</p>
                             </th>
                         </tr>
                         @foreach ($registros as $registro)
@@ -6192,7 +6192,7 @@ hoja de chequeo F7-SETCS-ELE-60-L1-06-1-1-1
                         @endforeach
                         <tr>
                             <th colspan="33" class="table-secondary">
-                                <p align="center">Ajustes por mantenimiento</p>
+                                <p >Ajustes por mantenimiento</p>
                             </th>
                         </tr>
                         @foreach ($registros as $registro)
@@ -6423,7 +6423,7 @@ hoja de chequeo F7-SETCS-ELE-60-L1-06-1-1-1
                         @endforeach
                         <tr>
                             <th colspan="33" class="table-secondary">
-                                <p align="center">Inicio de turno / Cambio de modelo / Set up #1</p>
+                                <p>Inicio de turno / Cambio de modelo / Set up #1</p>
                             </th>
                         </tr>
                         @foreach ($registros as $registro)
@@ -6654,7 +6654,7 @@ hoja de chequeo F7-SETCS-ELE-60-L1-06-1-1-1
                         @endforeach
                         <tr>
                             <th colspan="33" class="table-secondary">
-                                <p align="center">Inicio de turno / Cambio de modelo / Set up #2</p>
+                                <p>Inicio de turno / Cambio de modelo / Set up #2</p>
                             </th>
                         </tr>
                         @foreach ($registros as $registro)
