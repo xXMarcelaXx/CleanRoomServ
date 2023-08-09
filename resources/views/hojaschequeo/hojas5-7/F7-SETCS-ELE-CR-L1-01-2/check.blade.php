@@ -120,7 +120,7 @@
                             </th>
                         </tr>
                         @foreach ($registros as $key=>$registro)
-                        if@
+                        
                         <form action="{{route('finalcheck2',$registro->id)}}" method="POST">                            
                             @if ($registro->turno == '1' &&
                                 $registro->documentoid == 'F7-SETCS-ELE-CR-L1-01-2' &&
@@ -130,7 +130,7 @@
                                 $registro->año == $datoshoja->año)
                                 <input class="form-control" type="hidden" value="{{$registro->id}}" name="registro[{{$key}}][id]">
                                 <tr>
-<td class="fijar">{{ $registro->criterio }}</td>
+                             <td class="fijar">{{ $registro->criterio }}</td>
                                     @for ($i = 1; $i <= 31; $i++)
                                     <td>
                                         @php

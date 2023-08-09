@@ -230,7 +230,7 @@ Route::middleware(['auth'])->group(function () {
 
 
     //-----------------------------operaciones TURNO 3---------------------------------------------
-Route::get('/operacionesTurno3',[Turno3Controller::class,'operaciones'])->name('operacionesTurno3');
+   Route::get('/operacionesTurno3',[Turno3Controller::class,'operaciones'])->name('operacionesTurno3');
     //op 00
 Route::get('/op00-t3',[Turno3Controller::class,'op00'])->name('op00-t3');
     //op 20

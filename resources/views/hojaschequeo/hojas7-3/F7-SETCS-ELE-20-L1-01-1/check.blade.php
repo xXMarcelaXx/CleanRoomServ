@@ -127,7 +127,7 @@
                                 $registro->tipo == 'cumple')
                                 <input class="form-control" type="hidden" value="{{$registro->id}}" name="registro[{{$key}}][id]">
                                 <tr>
-<td class="fijar">{{ $registro->criterio }}</td>
+                                    <td class="fijar">{{ $registro->criterio }}</td>
                                     @for ($i = 1; $i <= 31; $i++)
                                     <td>
                                         @php
