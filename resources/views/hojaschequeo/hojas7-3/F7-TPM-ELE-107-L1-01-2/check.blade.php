@@ -40,7 +40,7 @@
         <br>
     </div>
     <div class="table-responsive">
-        <div class="table-responsive" align="center">
+        <div class="table-responsive" >
             @foreach ($datoshojas as $datoshoja)
             @endforeach
             <table class="table table-success table-bordered">

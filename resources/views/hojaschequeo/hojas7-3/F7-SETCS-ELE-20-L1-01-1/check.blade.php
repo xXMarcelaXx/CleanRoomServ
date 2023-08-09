@@ -41,7 +41,7 @@
         <br>
     </div>
     <div class="table-responsive">
-        <div class="table-responsive" align="center">
+        <div class="table-responsive">
 
             <table class="table table-success table-bordered">
                 <thead>
