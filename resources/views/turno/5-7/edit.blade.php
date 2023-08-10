@@ -57,7 +57,7 @@
     </div>
     <div>
         <button type="submit" class="btn btn-primary">Guardar</button>
-        <a href="/Turno1" class="btn btn-danger">Cancelar</a>
+        <a href="/operacionesTurno57" class="btn btn-danger">Cancelar</a>
     </div>
     </div>
 </form>    
