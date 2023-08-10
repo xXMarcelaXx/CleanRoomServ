@@ -120,6 +120,7 @@ use App\Http\Controllers\Reversotpm16011Controller;
 use App\Http\Controllers\Datoshojastpm16011Controller;
 use App\Http\Controllers\Reversotpm18011Controller;
 use App\Http\Controllers\Datoshojastpm18011Controller;
+use App\Http\Controllers\Datoshojastpm10014Controller;
 use App\Exports\UsersExport;
 use Maatwebsite\Excel\Facades\Excel;
 
@@ -1488,6 +1489,17 @@ Route::get('/pdfReversoTPM18011',[App\Http\Controllers\Reversotpm18011Controller
 
 
 
+//Rutas F7-TPM-ELE-100-L1-01-4
+Route::resource('F7-TPM-ELE-100-L1-01-4', 'App\Http\Controllers\Datoshojastpm10014Controller');
+Route::resource('reversoTPM10014', 'App\Http\Controllers\Reversotpm10014Controller');
+Route::get('/checkTPM10014',[App\Http\Controllers\Datoshojastpm10014Controller::class,'check'])->name('checkTPM10014');
+Route::put('/finalcheckTPM10014/{id}',[App\Http\Controllers\Datoshojastpm10014Controller::class,'finalcheck'])->name('finalcheckTPM10014');
+Route::get('/edit2TPM10014/{id}',[App\Http\Controllers\Datoshojastpm10014Controller::class,'edit2'])->name('edit2TPM10014');
+Route::put('/update2TPM10014/{id}',[App\Http\Controllers\Datoshojastpm10014Controller::class,'update2'])->name('update2TPM10014');
+Route::get('/pdfprintTPM10014',[App\Http\Controllers\Datoshojastpm10014Controller::class,'pdfprint'])->name('pdfprintTPM10014');
+Route::get('/printindexTPM10014',[App\Http\Controllers\Datoshojastpm10014Controller::class,'printindex'])->name('printindexTPM10014');
+Route::get('/printreversoTPM10014',[App\Http\Controllers\Reversotpm10014Controller::class,'printreverso'])->name('printreversoTPM10014');
+Route::get('/pdfReversoTPM10014',[App\Http\Controllers\Reversotpm10014Controller::class,'pdfReverso'])->name('pdfReversoTPM10014');
 
 
 

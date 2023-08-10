@@ -67,7 +67,7 @@ class Turno57Controller extends Controller
         DB::table('reversos')->delete();
         DB::table('reversos')->update([ 'mes' => $request->mes, 'año' => $request-> año   ]);
         DB::table('datoshojas')->update([ 'mes' => $request->mes, 'año' => $request-> año   ]);
-        return redirect ('/Turno1');
+        return redirect ('/turnos');
     }
 
     public function create()

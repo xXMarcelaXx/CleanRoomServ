@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>F7-TPM-ELE-100-L1-01</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="/css/app.css" rel="stylesheet">
@@ -32,7 +32,7 @@
                 <a href="" class="btn btn-info" style="color: white">IBM: {{auth()->user()->name ?? 
                 auth()->user()->IBM}} \ {{auth()->user()->name ?? auth()->user()->firstname}}</a>
                 @endauth
-                <a href="F7-SETCS-ELE-103-L1-01-1" class="btn btn-info" style="color: white">Volver</a>
+                <a href="F7-TPM-ELE-100-L1-01-4" class="btn btn-info" style="color: white">Volver</a>
                 <a href="/logout" class="btn" id="b3">Cerrar sesion</a>                                        
                 </div>
             </div>
@@ -114,10 +114,15 @@
                     </tr>
                 </thead>
                     <tbody>
+                        <tr>
+                            <th colspan="33" class="table-secondary">
+                                <p align="center">A LAS 6:00 HRS</p>
+                            </th>
+                        </tr>
                         @foreach ($registros as $key=>$registro)
-                        <form action="{{route('finalcheckSETCS10311',$registro->id)}}" method="POST">                            
+                        <form action="{{route('finalcheckTPM10014',$registro->id)}}" method="POST">                            
                             @if ($registro->turno == '1' &&
-                                $registro->documentoid == 'F7-SETCS-ELE-103-L1-01-1' &&
+                                $registro->documentoid == 'F7-TPM-ELE-100-L1-01-4' &&
                                 $registro->partetabla == 'ARRIBA' &&
                                 $registro->tipo == 'cumple' &&
                                 $registro->mes == $datoshoja->mes &&
@@ -149,62 +154,57 @@
                                 </tr>
                             @endif
                             @if ($registro->turno == '1' &&
-                                $registro->documentoid == 'F7-SETCS-ELE-103-L1-01-1' &&
+                                $registro->documentoid == 'F7-TPM-ELE-100-L1-01-4' &&
                                 $registro->partetabla == 'ARRIBA' &&
                                 $registro->tipo == 'rango' &&
                                 $registro->mes == $datoshoja->mes &&
                                 $registro->año == $datoshoja->año)
                                 <input class="form-control" type="hidden" value="{{$registro->id}}" name="registro[{{$key}}][id]">
                                 <tr>
-                                    <td class="fijar">{{ $registro->criterio }}</td>
+<td class="fijar">{{ $registro->criterio }}</td>
                                     @for ($i = 1; $i <= 31; $i++)
                                         <td>
                                             @php
                                                 $fieldName = "registro[{$key}][d{$i}]";
                                                 $disabled = !($dia >= $i - 1 && $dia <= $i + 1);
-                                                
-                                            @endphp
-                                            <input type="tel" step="0.01" size='15'
-                                                name="{{ $fieldName }}" id="{{ "d{$i}" }}" tabindex="1"
-                                                value="{{ $registro->{"d{$i}"} }}"
-                                                @if ($disabled) disabled @endif>
 
+                                            @endphp
+                                            <input type="tel" step="0.01" size='15' name="{{ $fieldName }}" id="{{ "d{$i}" }}" tabindex="1" value="{{ $registro->{"d{$i}"} }}" @if($disabled) disabled @endif>
+                            
                                         </td>
                                     @endfor
                                 </tr>
                             @endif
                             @if ($registro->turno == '1' &&
-                                $registro->documentoid == 'F7-SETCS-ELE-103-L1-01-1' &&
+                                $registro->documentoid == 'F7-TPM-ELE-100-L1-01-4' &&
                                 $registro->partetabla == 'ARRIBA' &&
                                 $registro->tipo == 'texto' &&
                                 $registro->mes == $datoshoja->mes &&
                                 $registro->año == $datoshoja->año)
                                 <input class="form-control" type="hidden" value="{{$registro->id}}" name="registro[{{$key}}][id]">
                                 <tr>
-                                    <td class="fijar">{{ $registro->criterio }}</td>
+<td class="fijar">{{ $registro->criterio }}</td>
                                     @for ($i = 1; $i <= 31; $i++)
                                         <td>
                                             @php
                                                 $fieldName = "registro[{$key}][d{$i}]";
                                                 $disabled = !($dia >= $i - 1 && $dia <= $i + 1);
                                             @endphp
-                                            <input type="text" size="15" name="{{ $fieldName }}"
-                                                id="{{ "d{$i}" }}" tabindex="1"
-                                                value="{{ $registro->{"d{$i}"} }}"
-                                                @if ($disabled) disabled @endif>
+                                            <input type="text" size="15" name="{{ $fieldName }}" id="{{ "d{$i}" }}" tabindex="1" value="{{ $registro->{"d{$i}"} }}" @if($disabled) disabled @endif>
                                         </td>
                                     @endfor
+                                </tr>
                                 </tr>
                             @endif
                         @endforeach
                         <tr>
                             <th colspan="33" class="table-secondary">
-                                <p align="center">  Despues de ajustes por mantenimiento o cambio de modelo</p>
+                                <p align="center">A LAS 19:00</p>
                             </th>
                         </tr>
-                        @foreach ($registros as $key=>$registro)
+                        @foreach ($registros as $key=>$registro)                          
                             @if ($registro->turno == '1' &&
-                                $registro->documentoid == 'F7-SETCS-ELE-103-L1-01-1' &&
+                                $registro->documentoid == 'F7-TPM-ELE-100-L1-01-4' &&
                                 $registro->partetabla == 'ABAJO' &&
                                 $registro->tipo == 'cumple' &&
                                 $registro->mes == $datoshoja->mes &&
@@ -236,51 +236,46 @@
                                 </tr>
                             @endif
                             @if ($registro->turno == '1' &&
-                                $registro->documentoid == 'F7-SETCS-ELE-103-L1-01-1' &&
+                                $registro->documentoid == 'F7-TPM-ELE-100-L1-01-4' &&
                                 $registro->partetabla == 'ABAJO' &&
                                 $registro->tipo == 'rango' &&
                                 $registro->mes == $datoshoja->mes &&
                                 $registro->año == $datoshoja->año)
                                 <input class="form-control" type="hidden" value="{{$registro->id}}" name="registro[{{$key}}][id]">
                                 <tr>
-                                    <td class="fijar">{{ $registro->criterio }}</td>
+<td class="fijar">{{ $registro->criterio }}</td>
                                     @for ($i = 1; $i <= 31; $i++)
                                         <td>
                                             @php
                                                 $fieldName = "registro[{$key}][d{$i}]";
                                                 $disabled = !($dia >= $i - 1 && $dia <= $i + 1);
-                                                
-                                            @endphp
-                                            <input type="tel" step="0.01" size='15'
-                                                name="{{ $fieldName }}" id="{{ "d{$i}" }}" tabindex="1"
-                                                value="{{ $registro->{"d{$i}"} }}"
-                                                @if ($disabled) disabled @endif>
 
+                                            @endphp
+                                            <input type="tel" step="0.01" size='15' name="{{ $fieldName }}" id="{{ "d{$i}" }}" tabindex="1" value="{{ $registro->{"d{$i}"} }}" @if($disabled) disabled @endif>
+                            
                                         </td>
                                     @endfor
                                 </tr>
                             @endif
                             @if ($registro->turno == '1' &&
-                                $registro->documentoid == 'F7-SETCS-ELE-103-L1-01-1' &&
+                                $registro->documentoid == 'F7-TPM-ELE-100-L1-01-4' &&
                                 $registro->partetabla == 'ABAJO' &&
                                 $registro->tipo == 'texto' &&
                                 $registro->mes == $datoshoja->mes &&
                                 $registro->año == $datoshoja->año)
                                 <input class="form-control" type="hidden" value="{{$registro->id}}" name="registro[{{$key}}][id]">
                                 <tr>
-                                    <td class="fijar">{{ $registro->criterio }}</td>
+<td class="fijar">{{ $registro->criterio }}</td>
                                     @for ($i = 1; $i <= 31; $i++)
                                         <td>
                                             @php
                                                 $fieldName = "registro[{$key}][d{$i}]";
                                                 $disabled = !($dia >= $i - 1 && $dia <= $i + 1);
                                             @endphp
-                                            <input type="text" size="15" name="{{ $fieldName }}"
-                                                id="{{ "d{$i}" }}" tabindex="1"
-                                                value="{{ $registro->{"d{$i}"} }}"
-                                                @if ($disabled) disabled @endif>
+                                            <input type="text" size="15" name="{{ $fieldName }}" id="{{ "d{$i}" }}" tabindex="1" value="{{ $registro->{"d{$i}"} }}" @if($disabled) disabled @endif>
                                         </td>
                                     @endfor
+                                </tr>
                                 </tr>
                             @endif
                         @endforeach
