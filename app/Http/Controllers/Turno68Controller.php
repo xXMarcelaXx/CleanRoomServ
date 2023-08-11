@@ -3,6 +3,7 @@ namespace App\Http\Controllers;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use App\Models\Turno68;
+use App\Models\Turno57;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
 
@@ -188,18 +189,21 @@ class Turno68Controller extends Controller
     }
     public function op60impresora5()
     {
+        $turno57s = Turno57::all();
         $turno68s = Turno68::all();
-        return view('turno.6-8.op-60.impresora5.index')->with('turno68s',$turno68s);
+        return view('turno.6-8.op-60.impresora5.index')->with('turno68s',$turno68s)->with('turno57s',$turno57s);
     }
     public function op60impresora6()
     {
+        $turno57s = Turno57::all();
         $turno68s = Turno68::all();
-        return view('turno.6-8.op-60.impresora6.index')->with('turno68s',$turno68s);
+        return view('turno.6-8.op-60.impresora6.index')->with('turno68s',$turno68s)->with('turno57s',$turno57s);
     }
     public function op60impresora7()
     {
+        $turno57s = Turno57::all();
         $turno68s = Turno68::all();
-        return view('turno.6-8.op-60.impresora7.index')->with('turno68s',$turno68s);
+        return view('turno.6-8.op-60.impresora7.index')->with('turno68s',$turno68s)->with('turno57s',$turno57s);
     }
 
 

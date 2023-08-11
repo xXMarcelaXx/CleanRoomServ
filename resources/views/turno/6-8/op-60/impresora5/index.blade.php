@@ -40,6 +40,7 @@
         </tr>
         @endif
         @endforeach
+
     </tbody>
 </table>
 @csrf
