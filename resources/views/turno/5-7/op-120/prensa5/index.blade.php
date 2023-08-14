@@ -3,7 +3,7 @@
 <br><br><br>
 <h1 style="text-align: center; color:white; background-color:rgb(113, 113, 255)">hojas de chequeo turno 1</h1>
 <br>
-<h1 style="text-align: center; color:white; background-color:rgb(29, 29, 29)">Op. 120 Prensa 5</h1>
+<h1 style="text-align: center; color:white; background-color:rgb(29, 29, 29)">Op. 120 Prensa OSM</h1>
 <table class="table table-success table-striped mt-4">
     <thead>
         <tr>
