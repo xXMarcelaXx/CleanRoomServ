@@ -27,11 +27,11 @@
 <h1 style="text-align: center; color:white; background-color:rgb(29, 29, 29)">Op. 140</h1>
 <br><br>
 <div class="contenedor-turnos">
-<a href="op140-prensa1-t3" class="btn" id="boton57">Prensa 1</a>
+<a href="op140-prensa1-t3" class="btn" id="boton57">Prensa PMRTD</a>
 <br><br>
-<a href="op140-prensa2-t3" class="btn" id="boton68">Prensa 2</a>
+<a href="op140-prensa2-t3" class="btn" id="boton68">Prensa OSP 111</a>
 <br><br>
-<a href="op140-prensa3-t3" class="btn" id="boton57">Prensa 3</a>  
+<a href="op140-prensa3-t3" class="btn" id="boton57">Prensa OSL 111 Y OSM</a>  
 <br><br>
 </div>
 </body>
