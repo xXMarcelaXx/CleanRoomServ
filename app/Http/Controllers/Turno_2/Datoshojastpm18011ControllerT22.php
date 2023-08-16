@@ -1,10 +1,9 @@
 <?php
 
 namespace App\Http\Controllers\Turno_2;
-
 use Carbon\Carbon;
 
-use Illuminate\Http\Request\Turno_2;
+use Illuminate\Http\Request;
 use PDF;
 use App\Models\Datoshoja;
 use App\Models\Registro;
