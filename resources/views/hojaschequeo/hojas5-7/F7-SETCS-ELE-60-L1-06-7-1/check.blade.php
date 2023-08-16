@@ -120,7 +120,7 @@
                             </th>
                         </tr>
                         @foreach ($registros as $key=>$registro)
-                        <form action="{{route('finalcheckSETCS606611',$registro->id)}}" method="POST">                            
+                        <form action="{{route('finalcheckSETCS606711',$registro->id)}}" method="POST">                            
                             @if ($registro->turno == '1' &&
                             $registro->documentoid == 'F7-SETCS-ELE-60-L1-06-7-1-1' &&
                             $registro->partetabla == 'INICIO' &&
