@@ -223,7 +223,7 @@
                             @endif
                     @endforeach
                     <tr>
-                        <th colspan="33" class="table-secondary">
+                        <th colspan="33" class="table-secondary"> 
                             <p align="center">A LAS 19:00</p>
                         </th>
                     </tr>
