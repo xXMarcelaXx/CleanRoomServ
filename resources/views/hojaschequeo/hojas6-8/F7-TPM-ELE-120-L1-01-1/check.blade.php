@@ -124,7 +124,7 @@
                         <form action="{{ route('finalcheckTPM120111T2', $registro->id) }}" method="POST">
                             @if (
                                 $registro->turno == '2' &&
-                                    $registro->documentoid == 'F7-TPM-ELE-120-L1-01-1' &&
+                                    $registro->documentoid == 'F7-TPM-ELE-120-L1-01-1-1' &&
                                     $registro->partetabla == 'ARRIBA' &&
                                     $registro->tipo == 'cumple' &&
                                     $registro->mes == $datoshoja->mes &&
@@ -170,7 +170,7 @@
                             @endif
                             @if (
                                 $registro->turno == '2' &&
-                                    $registro->documentoid == 'F7-TPM-ELE-120-L1-01-1' &&
+                                    $registro->documentoid == 'F7-TPM-ELE-120-L1-01-1-1' &&
                                     $registro->partetabla == 'ARRIBA' &&
                                     $registro->tipo == 'rango' &&
                                     $registro->mes == $datoshoja->mes &&
@@ -197,7 +197,7 @@
                             @endif
                             @if (
                                 $registro->turno == '2' &&
-                                    $registro->documentoid == 'F7-TPM-ELE-120-L1-01-1' &&
+                                    $registro->documentoid == 'F7-TPM-ELE-120-L1-01-1-1' &&
                                     $registro->partetabla == 'ARRIBA' &&
                                     $registro->tipo == 'texto' &&
                                     $registro->mes == $datoshoja->mes &&
@@ -223,15 +223,15 @@
                             @endif
                     @endforeach
                     <tr>
-                        <th colspan="33" class="table-secondary"> 
+                        <th colspan="33" class="table-secondary">
                             <p align="center">A LAS 19:00</p>
                         </th>
                     </tr>
                     @foreach ($registros as $key => $registro)
                         @if (
                             $registro->turno == '2' &&
-                                $registro->documentoid == 'F7-TPM-ELE-107-L1-01-1' &&
-                                $registro->partetabla == 'ARRIBA' &&
+                                $registro->documentoid == 'F7-TPM-ELE-120-L1-01-1-1' &&
+                                $registro->partetabla == 'ABAJO' &&
                                 $registro->tipo == 'cumple' &&
                                 $registro->mes == $datoshoja->mes &&
                                 $registro->año == $datoshoja->año)
@@ -275,7 +275,7 @@
                         @endif
                         @if (
                             $registro->turno == '2' &&
-                                $registro->documentoid == 'F7-TPM-ELE-107-L1-01-1' &&
+                                $registro->documentoid == 'F7-TPM-ELE-120-L1-01-1-1' &&
                                 $registro->partetabla == 'ABAJO' &&
                                 $registro->tipo == 'rango' &&
                                 $registro->mes == $datoshoja->mes &&
@@ -302,7 +302,7 @@
                         @endif
                         @if (
                             $registro->turno == '2' &&
-                                $registro->documentoid == 'F7-TPM-ELE-107-L1-01-1' &&
+                                $registro->documentoid == 'F7-TPM-ELE-120-L1-01-1-1' &&
                                 $registro->partetabla == 'ABAJO' &&
                                 $registro->tipo == 'texto' &&
                                 $registro->mes == $datoshoja->mes &&
