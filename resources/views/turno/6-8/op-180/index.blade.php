@@ -17,7 +17,7 @@
         </thead>
         <tbody>
             @foreach ($turno68s as $turno68)
-            @if($turno68->Operacion == '180')
+            @if($turno68->Operacion == '180' || $turno68->Operacion == '103')
             <tr>
                 <td id="txtturno">{{$turno68->DocumentoID}}</td>
                 <td>{{$turno68->Titulo}}</td>
