@@ -222,7 +222,7 @@ Route::middleware(['auth'])->group(function () {
    Route::get('/rep3_6',[ControllerPrueba::class,'rep3_6'])->name('rep3_6');
    Route::get('/rep3_7',[ControllerPrueba::class,'rep3_7'])->name('rep3_7');
    Route::get('/rep3_8',[ControllerPrueba::class,'rep3_8'])->name('rep3_8');
-   Route::get('/rep3_9',[ControllerPrueba::class,'re32_9'])->name('rep3_9');
+   Route::get('/rep3_9',[ControllerPrueba::class,'rep3_9'])->name('rep3_9');
    Route::get('/rep3_10',[ControllerPrueba::class,'rep3_10'])->name('rep3_10');
    Route::get('/rep3_11',[ControllerPrueba::class,'rep3_11'])->name('rep3_11');
    Route::get('/rep3_12',[ControllerPrueba::class,'rep3_12'])->name('rep3_12');
