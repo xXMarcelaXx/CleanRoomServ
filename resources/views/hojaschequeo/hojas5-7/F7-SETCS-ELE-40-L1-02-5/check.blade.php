@@ -186,6 +186,34 @@
                                 $registro->año == $datoshoja->año)
                                 <input class="form-control" type="hidden" value="{{$registro->id}}" name="registro[{{$key}}][id]">
                                 <tr>
+<td class="fijar">{{ $registro->criterio }}</td>
+                                    @for ($i = 1; $i <= 31; $i++)
+                                        <td>
+                                            @php
+                                                $fieldName = "registro[{$key}][d{$i}]";
+                                                $disabled = !($dia >= $i - 1 && $dia <= $i + 1);
+                                            @endphp
+                                            <input type="text" size="15" name="{{ $fieldName }}" id="{{ "d{$i}" }}" tabindex="1" value="{{ $registro->{"d{$i}"} }}" @if($disabled) disabled @endif>
+                                        </td>
+                                    @endfor
+                                </tr>
+                                </tr>
+                            @endif
+                        @endforeach  
+                        <tr>
+                        <th colspan="33" class="table-secondary">
+                            <p align="center">Despues del cambio de modelo</p>
+                        </th>                              
+                        </tr>
+                        @foreach ($registros as $key=>$registro)                          
+                            @if ($registro->turno == '1' &&
+                                $registro->documentoid == 'F7-SETCS-ELE-40-L1-02-1-5' &&
+                                $registro->partetabla == 'CAMBIO1' &&
+                                $registro->tipo == 'cumple' &&
+                                $registro->mes == $datoshoja->mes &&
+                                $registro->año == $datoshoja->año)
+                                <input class="form-control" type="hidden" value="{{$registro->id}}" name="registro[{{$key}}][id]">
+                                <tr>
                                     <td class="fijar">{{ $registro->criterio }}</td>
                                     @for ($i = 1; $i <= 31; $i++)
                                     <td>
@@ -236,6 +264,34 @@
                                 $registro->documentoid == 'F7-SETCS-ELE-40-L1-02-1-5' &&
                                 $registro->partetabla == 'CAMBIO1' &&
                                 $registro->tipo == 'texto' &&
+                                $registro->mes == $datoshoja->mes &&
+                                $registro->año == $datoshoja->año)
+                                <input class="form-control" type="hidden" value="{{$registro->id}}" name="registro[{{$key}}][id]">
+                                <tr>
+<td class="fijar">{{ $registro->criterio }}</td>
+                                    @for ($i = 1; $i <= 31; $i++)
+                                        <td>
+                                            @php
+                                                $fieldName = "registro[{$key}][d{$i}]";
+                                                $disabled = !($dia >= $i - 1 && $dia <= $i + 1);
+                                            @endphp
+                                            <input type="text" size="15" name="{{ $fieldName }}" id="{{ "d{$i}" }}" tabindex="1" value="{{ $registro->{"d{$i}"} }}" @if($disabled) disabled @endif>
+                                        </td>
+                                    @endfor
+                                </tr>
+                                </tr>
+                            @endif
+                        @endforeach
+                        <tr>
+                         <th colspan="33" class="table-secondary">
+                            <p align="center">Despues del cambio de modelo</p>
+                        </th>                           
+                        </tr>
+                        @foreach ($registros as $key=>$registro)                          
+                            @if ($registro->turno == '1' &&
+                                $registro->documentoid == 'F7-SETCS-ELE-40-L1-02-1-5' &&
+                                $registro->partetabla == 'CAMBIO2' &&
+                                $registro->tipo == 'cumple' &&
                                 $registro->mes == $datoshoja->mes &&
                                 $registro->año == $datoshoja->año)
                                 <input class="form-control" type="hidden" value="{{$registro->id}}" name="registro[{{$key}}][id]">
